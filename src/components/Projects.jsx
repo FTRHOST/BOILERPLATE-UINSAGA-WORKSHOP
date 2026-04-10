@@ -5,21 +5,21 @@ import React from 'react';
 const projectData = [
   {
     id: 1,
-    title: "E-Commerce Landing Page",
-    description: "A beautiful landing page for an online shoe store.",
-    tech: "React, Tailwind",
+    title: "Class A IT Cash System",
+    description: "A simple and modern web application for managing classroom finances.",
+    tech: "React, Tailwind, Firebase",
   },
   {
     id: 2,
-    title: "Weather Dashboard",
-    description: "Real-time weather application using a public API.",
-    tech: "JavaScript, HTML, CSS",
+    title: "FTrack",
+    description: "A smart personal finance manager to track all your transactions.",
+    tech: "Vite, Tailwind, Firebase",
   },
   {
     id: 3,
-    title: "Personal Task Manager",
-    description: "A simple to-do list application to organize daily tasks.",
-    tech: "React, LocalStorage",
+    title: "Personal Portfolio",
+    description: "A simple and modern portfolio built using the Vite framework.",
+    tech: "Vite, Tailwind",
   }
 ];
 
@@ -52,7 +52,7 @@ const Projects = () => {
 
               {/* Gambar Dummy untuk setiap proyek */}
               <img
-                src={`https://via.placeholder.com/400x250?text=Project+${project.id}`}
+                src={`/project/${project.id}.jpg`}
                 alt={project.title}
                 className="w-full h-48 object-cover"
               />

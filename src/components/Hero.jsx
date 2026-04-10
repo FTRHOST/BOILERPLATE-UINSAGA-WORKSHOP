@@ -23,17 +23,17 @@ const Hero = () => {
         {/* Foto Profil */}
         {/* w-32 h-32 mengatur ukuran, rounded-full membuatnya menjadi lingkaran, mx-auto meletakkannya di tengah */}
         <img
-          src="https://via.placeholder.com/150"
+          src="/profile.jpg"
           alt="Profile"
           className="w-32 h-32 rounded-full mx-auto shadow-lg mb-6 border-4 border-white"
         />
-        {/* TODO: [Tugas Peserta] Ganti URL gambar di atas dengan URL foto profilmu sendiri */}
+        {/* TODO: [Tugas Peserta] Ganti URL gambar di atas dengan URL foto profilmu sendiri, untuk folder public silahkan cukup berikan routenya saja contoh /profile.jpg */}
 
         {/* Nama dan Judul Pekerjaan */}
         <h1 className="text-4xl md:text-5xl font-extrabold text-gray-900 mb-4 tracking-tight">
-          Hi, I'm <span className="text-indigo-600">John Doe</span>
+          Hi, I'm <span className="text-indigo-600">Fathir Al Faruq</span>
         </h1>
-        {/* TODO: [Tugas Peserta] Ganti "John Doe" dengan nama aslimu! */}
+        {/* TODO: [Tugas Peserta] Ganti "Fathir Al Faruq" dengan nama aslimu! */}
 
         <p className="text-lg md:text-xl text-gray-600 mb-8 max-w-2xl mx-auto">
           I am a passionate Front-End Developer learning how to build modern web applications using React and Tailwind CSS.
