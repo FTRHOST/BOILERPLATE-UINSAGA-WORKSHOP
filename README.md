@@ -50,7 +50,7 @@ Di dalam kode-kode di atas (`Navbar.jsx`, `Hero.jsx`, dll.), terdapat beberapa k
 Carilah komentar tersebut dan cobalah untuk memodifikasi kodenya!
 
 Beberapa contoh tugas yang akan kita lakukan:
-1. Mengubah nama "John Doe" menjadi namamu sendiri.
+1. Mengubah nama "Fathir Al Faruq" menjadi namamu sendiri.
 2. Mengganti foto profil dengan fotomu (mengubah URL gambar).
 3. Menambahkan tombol atau tautan (link) baru di navigasi.
 4. Bereksperimen dengan warna Tailwind (misalnya mengubah warna `bg-indigo-600` menjadi `bg-blue-500`).
