@@ -26,7 +26,7 @@ FROM nginx:alpine
 COPY --from=builder /app/dist /usr/share/nginx/html
 
 # Mengekspos port 80 agar bisa diakses dari luar container
-EXPOSE 3000
+EXPOSE 80
 
 # Menjalankan Nginx di foreground
 CMD ["nginx", "-g", "daemon off;"]
